@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signal Bloom</title>
+    <title>Sean F | AI and Automation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,22 +17,50 @@
 
     <main class="shell">
       <header class="hero reveal">
-        <p class="eyebrow">Small Demo Page</p>
-        <h1>Build Something Strange and Useful.</h1>
+        <p class="eyebrow">Sean F</p>
+        <h1>Building practical AI workflows for real teams.</h1>
         <p class="lead">
-          A tiny, responsive webpage with a bold visual direction, subtle motion, and one interactive panel.
+          I design and ship automation that reduces manual work, improves response time, and makes complex intake
+          processes easier to manage.
         </p>
-        <button id="toggleButton" class="cta" type="button">Show Quick Ideas</button>
+        <div class="actions">
+          <a class="cta" href="https://www.linkedin.com/in/sean-f-066b221b9/" target="_blank" rel="noreferrer">View LinkedIn</a>
+          <a class="ghost" href="#featured-project">Featured Project</a>
+        </div>
       </header>
 
-      <section id="ideaPanel" class="panel reveal hidden" aria-live="polite">
-        <h2>Starter Ideas</h2>
+      <section class="panel reveal" id="featured-project" aria-labelledby="project-heading">
+        <p class="section-label">Project Spotlight</p>
+        <h2 id="project-heading">Claims Intake Assistant</h2>
+        <p>
+          An email-first intake workflow focused on converting incoming claim information into structured, actionable
+          outputs. The current application surface is through email, with a dedicated product page planned in the
+          claims-intake-assistant repository.
+        </p>
+        <a class="project-link" href="https://github.com/seanfloler/claims-intake-assistant" target="_blank" rel="noreferrer">
+          Open claims-intake-assistant repository
+        </a>
+      </section>
+
+      <section class="panel reveal" id="about" aria-labelledby="about-heading">
+        <p class="section-label">How I Work</p>
+        <h2 id="about-heading">Focused on useful outcomes, not demos.</h2>
         <ul>
-          <li>Create a mini landing page for your next script.</li>
-          <li>Turn your CLI output into a visual dashboard.</li>
-          <li>Publish this as a GitHub Pages personal splash screen.</li>
+          <li>Designs automation around existing business workflows.</li>
+          <li>Builds clear operational handoff so systems are maintainable.</li>
+          <li>Ships incrementally with measurable impact each release.</li>
         </ul>
       </section>
+
+      <footer class="site-footer reveal">
+        <p>Available for collaboration and consulting.</p>
+        <p>
+          Connect on
+          <a href="https://www.linkedin.com/in/sean-f-066b221b9/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span class="dot">•</span>
+          <span id="year"></span>
+        </p>
+      </footer>
     </main>
 
     <script src="app.js"></script>

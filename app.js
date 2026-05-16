@@ -1,11 +1,5 @@
-const toggleButton = document.getElementById("toggleButton");
-const ideaPanel = document.getElementById("ideaPanel");
+const yearElement = document.getElementById("year");
 
-if (toggleButton && ideaPanel) {
-  toggleButton.addEventListener("click", () => {
-    ideaPanel.classList.toggle("hidden");
-    toggleButton.textContent = ideaPanel.classList.contains("hidden")
-      ? "Show Quick Ideas"
-      : "Hide Quick Ideas";
-  });
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear().toString();
 }
